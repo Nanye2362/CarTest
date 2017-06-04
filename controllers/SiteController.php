@@ -63,6 +63,11 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionCustomercarlist()
+    {
+        return $this->render('CustomerCarList.tpl',['test'=>'smarty133']);
+    }
+    
     /**
      * Login action.
      *

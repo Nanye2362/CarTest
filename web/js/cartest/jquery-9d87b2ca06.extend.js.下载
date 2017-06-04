@@ -1,0 +1,2 @@
+$(function(){$.extend({relocate:function(n){$(document).find("input[type='button']").prop("disabled",!0),$(document).find("button").prop("disabled",!0),$(document).find("a").prop("disabled",!0),window.location.href=n}}),$.extend({openNewWindow:function(n){window.open(n)}}),$.extend({relocateSelf:function(){$(document).find("input[type='button']").prop("disabled",!0),$(document).find("button").prop("disabled",!0),$(document).find("a").prop("disabled",!0),window.location.reload()}})});
+//# sourceMappingURL=jquery-9d87b2ca06.extend.js.map

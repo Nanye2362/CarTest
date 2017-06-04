@@ -1,0 +1,2 @@
+function phoneCall(e){var r="";if(0==e.length)r="手机号码为空，不能进行呼叫。";else{var n=new WebSocket(phoneCallServerUri);n.onopen=function(r){n.send(e),1==n.readyState&&n.close()},n.onerror=function(e){r="连接呼叫助手失败，请确认呼叫助手已打开。",Messenger().post({message:r,type:"error",hideAfter:3})}}if(r)return Messenger().post({message:r,type:"error",hideAfter:3}),!1}var phoneCallServerUri="ws://localhost:8311/callin";
+//# sourceMappingURL=common-phoneCall-c1047337c7.js.map
