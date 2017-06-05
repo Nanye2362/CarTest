@@ -108,34 +108,34 @@
 
             });
         </script>
-        <script>!
-                    function e(t, n, i) {
-                        function o(a, s) {
-                            if (!n[a]) {
-                                if (!t[a]) {
-                                    var l = "function" == typeof require && require;
-                                    if (!s && l)
-                                        return l(a, !0);
-                                    if (r)
-                                        return r(a, !0);
-                                    var c = new Error("Cannot find module '" + a + "'");
-                                    throw c.code = "MODULE_NOT_FOUND",
-                                            c
-                                }
-                                var d = n[a] = {
-                                    exports: {}
-                                };
-                                t[a][0].call(d.exports, function (e) {
-                                    var n = t[a][1][e];
-                                    return o(n ? n : e)
-                                }, d, d.exports, e, t, n, i)
-                            }
-                            return n[a].exports
+        <script>
+            !function e(t, n, i) {
+                function o(a, s) {
+                    if (!n[a]) {
+                        if (!t[a]) {
+                            var l = "function" == typeof require && require;
+                            if (!s && l)
+                                return l(a, !0);
+                            if (r)
+                                return r(a, !0);
+                            var c = new Error("Cannot find module '" + a + "'");
+                            throw c.code = "MODULE_NOT_FOUND",
+                                    c
                         }
-                        for (var r = "function" == typeof require && require, a = 0; a < i.length; a++)
-                            o(i[a]);
-                        return o
-                    }({
+                        var d = n[a] = {
+                            exports: {}
+                        };
+                        t[a][0].call(d.exports, function (e) {
+                            var n = t[a][1][e];
+                            return o(n ? n : e)
+                        }, d, d.exports, e, t, n, i)
+                    }
+                    return n[a].exports
+                }
+                for (var r = "function" == typeof require && require, a = 0; a < i.length; a++)
+                    o(i[a]);
+                return o
+            }({
                 1: [function (e) {
                         var t = window.location.href,
                                 n = document.createElement("div"),
@@ -324,7 +324,7 @@
                 3: [function (e, t) {
                         t.exports = !!document.createElement("video").canPlayType("application/x-mpegURL")
                     },
-                    {}],
+            {}],
                 4: [function (e, t) {
                         function n(e, t) {
                             var n = document.createElement(e);
@@ -354,7 +354,7 @@
                         }
                         t.exports = n
                     },
-                    {}],
+            {}],
                 5: [function (e, t) {
                         var n = '<div style="text-shadow:0 0 2px #eee;letter-spacing:-1px;background:#eee;font-weight:bold;padding:0;font-family:arial,sans-serif;font-size:30px;color:#ccc;width:152px;height:52px;border:4px solid #ccc;border-radius:12px;position:absolute;top:50%;left:50%;margin:-30px 0 0 -80px;text-align:center;line-height:52px;">Flash</div>',
                                 i = 0,
@@ -405,11 +405,11 @@
                                 e[n] && s(e[n])
                         }
                     },
-                    {}],
+            {}],
                 6: [function (e, t) {
                         t.exports = "html5playerforadblockyouknowwhatimean"
                     },
-                    {}],
+            {}],
                 7: [function (e, t) {
                         function n() {
                             return a + s++
@@ -445,7 +445,7 @@
                 8: [function (e, t) {
                         t.exports = function () {}
                     },
-                    {}],
+            {}],
                 9: [function (e, t) {
                         var n;
                         !
@@ -1016,7 +1016,7 @@
                                     }
                                     t.exports = n
                                 },
-                                {}],
+            {}],
                             8: [function (e, t) {
                                     function n(e) {
                                         return Array.prototype.slice.call(e)
@@ -1079,7 +1079,7 @@
                                     }
                                     t.exports = n
                                 },
-                                {}],
+            {}],
                             10: [function (e) {
                                     function t(e, t, n, i) {
                                         this.id = e,
@@ -1109,15 +1109,15 @@
                                     }
                                     t.exports = n
                                 },
-                                {}],
+            {}],
                             12: [function (e, t) {
                                     t.exports = '* { margin:0; padding:0; }body { font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif"; font-size:16px;}html, body, .player { height: 100%; }.player:-webkit-full-screen { width: 100%; cursor:url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==); }.player:-moz-full-screen { width: 100%; cursor:url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==); }.player:full-screen { width: 100%; cursor:url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==); }.player { border-radius: 3px; overflow: hidden; position: relative; cursor: default;  -webkit-user-select: none;  -moz-user-select: none; user-select: none;}.video-frame { box-sizing: border-box; padding-bottom: 50px; height: 100%; overflow: hidden; position: relative;}.video-frame .comments{ position: absolute; top:0;left:0; width:100%; height:100%;  -webkit-transform:translateZ(0);  -moz-transform:translateZ(0); transform:translateZ(0);  pointer-events: none;}.player:-webkit-full-screen .video-frame { padding-bottom: 0px; }.player:-moz-full-screen .video-frame { padding-bottom: 0px; }.player:full-screen .video-frame{ padding-bottom: 0px; }.video { width: 100%;  height: 100%; background: #000000;}.controller {  position: absolute; bottom: 0px;  left:0; right:0;  background: #24272A;  height: 50px;}.controller .loading-icon { display: none;  position: absolute; width: 20px;  height: 20px; line-height: 20px;  text-align: center; font-size: 20px;  color: #ffffff; top: -30px; right: 10px;}.player.loading .controller .loading-icon {  display: block;}.player:-webkit-full-screen .controller { -webkit-transform:translateY(50px); -webkit-transition: -webkit-transform 0.3s ease;}.player:-moz-full-screen .controller { -moz-transform:translateY(50px);  -moz-transition: -moz-transform 0.3s ease;}.player:full-screen .controller {  transform:translateY(50px); transition: transform 0.3s ease;}.player.active:-webkit-full-screen { cursor: default;}.player.active:-moz-full-screen {  cursor: default;}.player.active:full-screen { cursor: default;}.player.active:-webkit-full-screen .controller,.player:-webkit-full-screen .controller:hover { -webkit-transform:translateY(0);  cursor: default;}.player.active:-moz-full-screen .controller,.player:-moz-full-screen .controller:hover { -moz-transform:translateY(0); cursor: default;}.player.active:full-screen .controller.player:full-screen .controller:hover {  transform:translateY(0);  cursor: default;}.player.active:-webkit-full-screen .controller .progress .progress_anchor:after,.player:-webkit-full-screen .controller:hover .progress .progress_anchor:after { height:12px;}.player.active:-moz-full-screen .controller .progress .progress_anchor:after,.player:-moz-full-screen .controller:hover .progress .progress_anchor:after { height:12px;}.player.active:full-screen .controller .progress .progress_anchor:after,.player:full-screen .controller:hover .progress .progress_anchor:after { height:12px;}.player:-webkit-full-screen .controller .progress .progress_anchor:after { height:4px;}.player:-moz-full-screen .controller .progress .progress_anchor:after { height:4px;}.player:full-screen .controller .progress .progress_anchor:after {  height:4px;}.controller .progress { position: absolute; top:0px;  left:0; right:0;  border-right: 4px solid #181A1D;  border-left: 8px solid #B3ABAB; height: 4px;  background: #181A1D;  z-index:1;  -webkit-transform: translateZ(0); -moz-transform: translateZ(0);  transform: translateZ(0);}.controller .progress:after { content:""; display: block; position: absolute; top:0px;  left:0; right:0;  bottom:-10px; height: 10px;}.controller .progress .anchor { height: 4px;  background: #B3ABAB;  position: absolute; top:0;left:0;}.controller .progress .anchor:after { content:""; display: block; width: 12px;  background: #f5f5f5;  position: absolute; right:-4px; top: 50%; height: 12px; box-shadow: 0 0 2px rgba(0,0,0, 0.4); border-radius: 12px;  -webkit-transform: translateY(-50%);  -moz-transform: translateY(-50%); transform: translateY(-50%);}.controller .progress .anchor.buffered_anchor {  position: relative; background: rgba(255,255,255,0.1);}.controller .progress .anchor.buffered_anchor:after {  box-shadow: none; height: 4px;  width: 4px; border-radius: 0; background: rgba(255,255,255,0.1);}.controller .right { height: 50px; position: absolute; top:0;  left:10px;  right:10px; pointer-events: none;}.controller .play,.controller .volume,.controller .time,.controller .hd,.controller .airplay,.controller .allscreen,.controller .normalscreen,.controller .comments-btn,.controller .fullscreen { padding-top:4px;  height: 46px; line-height: 50px;  text-align: center; color: #eeeeee; float:left; text-shadow:0 0 2px rgba(0,0,0,0.5);  pointer-events: auto;}.controller .hd,.controller .airplay,.controller .allscreen,.controller .normalscreen,.controller .comments-btn,.controller .fullscreen { float:right;}.controller .play {  width: 36px;  padding-left: 10px; cursor: pointer;}.controller .play:after {  font-family: "FontAwesome"; content: "\\f04c";}.controller .play.paused:after { content: "\\f04b";}.controller .volume {  min-width: 30px;  position: relative; overflow: hidden; -webkit-transition: min-width 0.3s ease 0.5s; -moz-transition: min-width 0.3s ease 0.5s;  transition: min-width 0.3s ease 0.5s;}.controller .volume:hover { min-width: 128px;}.controller .volume:before {  font-family: "FontAwesome"; content: "\\f028";  width: 36px;  display: block;}.controller .volume .progress { width: 70px;  top: 27px;  left: 40px;}.controller .time { font-size: 12px;  font-weight: bold;  padding-left: 10px;}.controller .time .current {  color: #EEEEEE;}.controller .fullscreen,.controller .airplay,.controller .allscreen,.controller .comments-btn,.controller .normalscreen { width: 36px;  cursor: pointer;}.controller .comments-btn {  margin-right: -15px;  display: none;}.player.has-comments .controller .comments-btn { display: block;}.controller .comments-btn:before {  font-family: "FontAwesome"; content: "\\f075";}.controller .comments-btn.enable:before {  color: #DF6558;}.controller .airplay,.controller .normalscreen {  display: none;}.player:-webkit-full-screen .controller .fullscreen,.player:-webkit-full-screen .controller .allscreen { display: none;}.player:-webkit-full-screen .controller .normalscreen,.player.allscreen .controller .normalscreen,.player.support-airplay .controller .airplay { display: block;}.player.allscreen .controller .allscreen {  display: none;}.controller .fullscreen:before { font-family: "FontAwesome"; content: "\\f0b2";}.controller .allscreen:before {  font-family: "FontAwesome"; content: "\\f065";}.controller .normalscreen:before { font-family: "FontAwesome"; content: "\\f066";}.controller .airplay { background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0ibWFtYS1haXJwbGF5LWljb24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjJweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMjIgMTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5bGluZSBwb2ludHM9IjUsMTIgMSwxMiAxLDEgMjEsMSAyMSwxMiAxNywxMiIgc3R5bGU9ImZpbGw6dHJhbnNwYXJlbnQ7c3Ryb2tlOndoaXRlO3N0cm9rZS13aWR0aDoxIi8+PHBvbHlsaW5lIHBvaW50cz0iNCwxNiAxMSwxMCAxOCwxNiIgc3R5bGU9ImZpbGw6d2hpdGU7c3Ryb2tlOnRyYW5zcGFyZW50O3N0cm9rZS13aWR0aDowIi8+PC9zdmc+DQo=) no-repeat center 20px;  background-size: 22px auto;}.controller .hd { white-space:nowrap; overflow: hidden; margin-right: 10px; text-align: right;}.controller .hd:hover li { max-width: 300px;}.controller .hd li {  display: inline-block;  max-width: 0px; -webkit-transition: max-width 0.8s ease 0.3s; -moz-transition: max-width 0.8s ease 0.3s;  transition: max-width 0.8s ease 0.3s; overflow: hidden; font-size: 14px;  font-weight: bold;  position: relative; cursor: pointer;}.controller .hd li:before {  content: "";  display: inline-block;  width:20px;}.controller .hd li:before { content: "";  display: inline-block;  width:20px;}.controller .hd li.curr { max-width: 300px; cursor: default;  color: #EEEEEE;}.controller .hd li.curr:after { content: "";  display: block; position: absolute; width:4px;  height:4px; border-radius: 50%; background: #ffffff;  left: 12px; top: 23px;  opacity: 0; -webkit-transition: opacity 0.5s ease 0.3s; -moz-transition: opacity 0.5s ease 0.3s;  transition: opacity 0.5s ease 0.3s;}'
                                 },
-                                {}],
+            {}],
                             13: [function (e, t) {
                                     t.exports = '<div class="player">  <div class="video-frame"><video class="video" autoplay="autoplay"></video><canvas class="comments"></canvas></div>  <div class="controller">    <div class="loading-icon fa fa-spin fa-circle-o-notch"></div>   <div class="progress">      <div class="anchor buffered_anchor" style="width:0%"></div>     <div class="anchor progress_anchor" style="width:0%"></div>   </div>    <div class="right">     <div class="fullscreen"></div>      <div class="allscreen"></div>     <div class="normalscreen"></div>      <div class="airplay"></div>     <ul class="hd"></ul>      <div class="comments-btn"></div>     </div>    <div class="left">     <div class="play paused"></div>     <div class="volume">        <div class="progress">          <div class="anchor volume_anchor" style="width:0%"></div>       </div>      </div>      <div class="time">        <span class="current">00:00:00</span> / <span class="duration">00:00:00</span>      </div>     </div> </div></div>'
                                 },
-                                {}],
+            {}],
                             14: [function (e, t) {
                                     function n(e, t) {
                                         return (Array(t).join(0) + e).slice(-t)
@@ -1132,11 +1132,11 @@
                                     }
                                     t.exports = i
                                 },
-                                {}]
+            {}]
                         }, {}, [10]),
                                 t.exports = n
                     },
-                    {}],
+            {}],
                 10: [function (e, t) {
                         function n(e, t) {
                             for (var n = decodeURI(e), i = f[t ? "strict" : "loose"].exec(n), o = {
@@ -1260,7 +1260,7 @@
                                 v = /^[0-9]+$/;
                         t.exports = h
                     },
-                    {}],
+            {}],
                 11: [function (e, t) {
                         function n(e) {
                             var t = [];
@@ -1270,7 +1270,7 @@
                         }
                         t.exports = n
                     },
-                    {}],
+            {}],
                 12: [function (e, t, n) {
                         var i = e("./canPlayM3U8"),
                                 o = e("./ajax");
@@ -1928,15 +1928,15 @@
                         addAnimations: function () {
                             var style = document.createElement('style');
                             style.type = 'text/css';
-                           {* style.innerHTML = 'object,embed{\
-                        -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;\
-                        -ms-animation-duration:.001s;-ms-animation-name:playerInserted;\
-                        -o-animation-duration:.001s;-o-animation-name:playerInserted;\
-                        animation-duration:.001s;animation-name:playerInserted;}\
-                        @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
-                        @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
-                        @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
-                        @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}';*}
+            {* style.innerHTML = 'object,embed{\
+            -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;\
+            -ms-animation-duration:.001s;-ms-animation-name:playerInserted;\
+            -o-animation-duration:.001s;-o-animation-name:playerInserted;\
+            animation-duration:.001s;animation-name:playerInserted;}\
+            @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+            @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+            @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+            @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}';*}
                             document.getElementsByTagName('head')[0].appendChild(style);
                         },
                         animationsHandler: function (e) {
@@ -2066,7 +2066,7 @@
                 ;
             }
         </script>
-{*        <style type="text/css">object,embed{-webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;-ms-animation-duration:.001s;-ms-animation-name:playerInserted;-o-animation-duration:.001s;-o-animation-name:playerInserted;animation-duration:.001s;animation-name:playerInserted;}@-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}@-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}@-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}@keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}</style>*}
+        {*        <style type="text/css">object,embed{-webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;-ms-animation-duration:.001s;-ms-animation-name:playerInserted;-o-animation-duration:.001s;-o-animation-name:playerInserted;animation-duration:.001s;animation-name:playerInserted;}@-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}@-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}@-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}@keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}</style>*}
     </head>
 
     <body class="mainBody">
@@ -2633,7 +2633,7 @@
                 c = h.getElementsByTagName(c)[0];
                 c.parentNode.insertBefore(g, c)
             })(window, document, "script", "http://assets-cli.udesk.cn/im_client/js/udeskApi.js?1490946450362", "ud");
-{*            ud({"code": "1b2ahdek", "link": "http://f6car.udesk.cn/im_client?web_plugin_id=23932"});*}
+            {*            ud({"code": "1b2ahdek", "link": "http://f6car.udesk.cn/im_client?web_plugin_id=23932"});*}
             ud({
                 "customer": {
                     "c_name": "王克伟",
@@ -2982,7 +2982,7 @@
             </div>
         </div>
         <!--客户消费历史-->
-        
+
         <script src="../others/out_config"></script>
         <script src="../others/key"></script>
         <div id="udesk_container">
