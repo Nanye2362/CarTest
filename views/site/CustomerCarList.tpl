@@ -39,58 +39,58 @@
         <link rel="stylesheet" type="text/css" href="../css/cartest/f6-common-693e453000.css" media="screen">
         <link rel="stylesheet" type="text/css" href="../css/cartest/f6-style-979ea3dd1c.css" media="screen">
         <link rel="stylesheet" type="text/css" href="../css/cartest/print-8cd7aedef3.css">
-        <script async="" src="../js/cartest/udeskApi.js.下载"></script>
-        <script src="../js/cartest/hm.js.下载"></script>
-        <script src="../js/cartest/fundebug.0.0.4.min.js.下载" apikey="58d888787b5d1b316b03aa3293898a44a4618d64421a5fd60ad4d267cad978da" appversion="product-slave20170602-083857" releasestage="production"></script>
+        <script async="" src="../js/cartest/udeskApi.js"></script>
+        <script src="../js/cartest/hm.js"></script>
+        <script src="../js/cartest/fundebug.0.0.4.min.js" apikey="58d888787b5d1b316b03aa3293898a44a4618d64421a5fd60ad4d267cad978da" appversion="product-slave20170602-083857" releasestage="production"></script>
         <style type="text/css" adt="123"></style>
-        <script type="text/javascript" src="../js/cartest/jquery-1.9.1.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/jquery-ui.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/ajaxfileupload.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/bootstrap.min.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/common-f83fd0c1ac.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/ajax-submit-5151e1aac3.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/PageConsole-b67fb451a4.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/script-89fad50c8b.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/select2.min.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/zh-CN.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/bootstrap-modal.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/bootstrap-modalmanager.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/custom-date-e5ca66a176.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/bootstrap-datetimepicker.min.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/bootstrap-datetimepicker.zh-CN.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/messenger.min.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/messenger-theme-flat.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/jquery.validate.min.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/messages_zh.min.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/frmHandle-054510b031.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/tb-470d838009.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/tb-7155ef209c.url.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/plupload.full.min.js.下载"></script>
+        <script type="text/javascript" src="../js/cartest/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="../js/cartest/jquery-ui.js"></script>
+        <script type="text/javascript" src="../js/cartest/ajaxfileupload.js"></script>
+        <script type="text/javascript" src="../js/cartest/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/cartest/common-f83fd0c1ac.js"></script>
+        <script type="text/javascript" src="../js/cartest/ajax-submit-5151e1aac3.js"></script>
+        <script type="text/javascript" src="../js/cartest/PageConsole-b67fb451a4.js"></script>
+        <script type="text/javascript" src="../js/cartest/script-89fad50c8b.js"></script>
+        <script type="text/javascript" src="../js/cartest/select2.min.js"></script>
+        <script type="text/javascript" src="../js/cartest/zh-CN.js"></script>
+        <script type="text/javascript" src="../js/cartest/bootstrap-modal.js"></script>
+        <script type="text/javascript" src="../js/cartest/bootstrap-modalmanager.js"></script>
+        <script type="text/javascript" src="../js/cartest/custom-date-e5ca66a176.js"></script>
+        <script type="text/javascript" src="../js/cartest/bootstrap-datetimepicker.min.js"></script>
+        <script type="text/javascript" src="../js/cartest/bootstrap-datetimepicker.zh-CN.js"></script>
+        <script type="text/javascript" src="../js/cartest/messenger.min.js"></script>
+        <script type="text/javascript" src="../js/cartest/messenger-theme-flat.js"></script>
+        <script type="text/javascript" src="../js/cartest/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="../js/cartest/messages_zh.min.js"></script>
+        <script type="text/javascript" src="../js/cartest/frmHandle-054510b031.js"></script>
+        <script type="text/javascript" src="../js/cartest/tb-470d838009.js"></script>
+        <script type="text/javascript" src="../js/cartest/tb-7155ef209c.url.js"></script>
+        <script type="text/javascript" src="../js/cartest/plupload.full.min.js"></script>
 
-        <script type="text/javascript" src="../js/cartest/moxie.min.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/plupload.dev.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/tb-56d322aff5.upload.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/jquery.cookie.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/intro.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/jquery-migrate.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/jquery.jqprint-0.3.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/jquery-confirm.js.下载"></script>
-        <script src="../js/cartest/Chart.js.下载"></script>
-        <script src="../js/cartest/countUp.js.下载"></script>
-        <script src="../js/cartest/jquery.raty.min.js.下载"></script>
-        <script src="../js/cartest/f6-bootstrap-treeview.js.下载"></script>
-        <script src="../js/cartest/md5.min.js.下载"></script>
+        <script type="text/javascript" src="../js/cartest/moxie.min.js"></script>
+        <script type="text/javascript" src="../js/cartest/plupload.dev.js"></script>
+        <script type="text/javascript" src="../js/cartest/tb-56d322aff5.upload.js"></script>
+        <script type="text/javascript" src="../js/cartest/jquery.cookie.js"></script>
+        <script type="text/javascript" src="../js/cartest/intro.js"></script>
+        <script type="text/javascript" src="../js/cartest/jquery-migrate.js"></script>
+        <script type="text/javascript" src="../js/cartest/jquery.jqprint-0.3.js"></script>
+        <script type="text/javascript" src="../js/cartest/jquery-confirm.js"></script>
+        <script src="../js/cartest/Chart.js"></script>
+        <script src="../js/cartest/countUp.js"></script>
+        <script src="../js/cartest/jquery.raty.min.js"></script>
+        <script src="../js/cartest/f6-bootstrap-treeview.js"></script>
+        <script src="../js/cartest/md5.min.js"></script>
         <!--[if ie]>
         <script type="text/javascript" src="/kzf6/plugins/Respond/src/respond.js"></script>
         <![endif]-->
 
-        <script src="../js/cartest/ZeroClipboard.min.js.下载"></script>
-        <script src="../js/cartest/jquery.blockUI.js.下载"></script>
-        <script src="../js/cartest/jquery.table2excel.js.下载"></script>
-        <script src="../js/cartest/jquery-9d87b2ca06.extend.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/customerVehicleList-f8bbb8b797.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/customerVehicleListCommon-d20522e850.js.下载"></script>
-        <script type="text/javascript" src="../js/cartest/common-phoneCall-c1047337c7.js.下载"></script>
+        <script src="../js/cartest/ZeroClipboard.min.js"></script>
+        <script src="../js/cartest/jquery.blockUI.js"></script>
+        <script src="../js/cartest/jquery.table2excel.js"></script>
+        <script src="../js/cartest/jquery-9d87b2ca06.extend.js"></script>
+        <script type="text/javascript" src="../js/cartest/customerVehicleList-f8bbb8b797.js"></script>
+        <script type="text/javascript" src="../js/cartest/customerVehicleListCommon-d20522e850.js"></script>
+        <script type="text/javascript" src="../js/cartest/common-phoneCall-c1047337c7.js"></script>
 
         <script type="text/javascript">
             $(document).ready(function () {
@@ -2081,7 +2081,7 @@
             var isGuideOpen = "0";
 
         </script>
-        <script type="text/javascript" src="../js/cartest/head-d94ecdab2a.js.下载"></script>
+        <script type="text/javascript" src="../js/cartest/head-d94ecdab2a.js"></script>
         <script type="text/javascript">
             /*设备屏幕宽度大于600时，按原比例的0.8倍显示*/
             var screenWidth = window.screen.width;
