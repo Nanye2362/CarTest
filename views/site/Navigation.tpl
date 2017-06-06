@@ -67,7 +67,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">欢迎 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">修改密码</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#ModifyPwd">修改密码</a></li>
                         <li><a href="#">提醒设置</a></li>
                         <li><a href="#">考勤设置</a></li>
                         <li><a href="#">参数设置</a></li>
@@ -159,3 +159,51 @@
     </ul>
 </div>
 <!--左边导航结束-->
+<!--修改密码弹框开始-->
+<div class="container">
+    <form method="post" action="" class="form-horizontal" role="form" id="form_data" onkeydown="if (event.keyCode == 13)
+                return false;" onsubmit="return check_form()" style="margin: 20px;">
+        <div class="modal fade" id="ModifyPwd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">
+                            修改密码
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">原密码</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" name="old_pwd" value="" placeholder="请输入原密码">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="cde_usedname" class="col-sm-3 control-label">新密码</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" name="new_pwd" value="" placeholder="请输入新密码">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="cde_usedname2" class="col-sm-3 control-label">确认新密码</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" name="confirm_new_pwd" value="" placeholder="请确认新密码">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="submit" class="btn btn-primary">确定修改</button>
+                        <span id="tip"> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<!--修改密码弹框结束-->
