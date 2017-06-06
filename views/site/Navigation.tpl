@@ -1,3 +1,20 @@
+<link href="../css/cartest/iconfont.css" rel="stylesheet">
+<style>
+    #sidebarLeft>ul>li>a {
+        padding: 8px 15px;
+        color: #c5c5c5;
+    }
+    #sidebarLeft>ul {
+        text-align: center;
+    }
+    #sidebarLeft>ul>li>a>i {
+        font-size: 20px;
+    }
+    .marginTop5 {
+        font-size: 12px;
+        margin: 0px;
+    }
+</style>
 <!--头部开始-->
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -106,53 +123,63 @@
     <ul id="menuUl" class="nav">
         <li>
             <a href="javascript:linkMenu(&#39;/page/index/index.jsp&#39;,&#39;首页&#39;)">
+                <i class="iconfont"></i>
                 <p class="marginTop5">首页</p>
             </a>
         </li>
         <li>
             <a href="javascript:linkMenu(&#39;/reservation/reservationList.do&#39;,&#39;预约&#39;)">
+                <i class="iconfont"></i>
                 <p class="marginTop5">预约</p>
                 <sup class="aside" id="reservationRemindCount" style="display: none"></sup>
             </a>
         </li>
         <li>
             <a href="javascript:linkMenu(&#39;/maintain/maintainList.do&#39;,&#39;工单&#39;)">
+                <i class="iconfont"></i>
                 <p class="marginTop5">工单</p>
             </a>
         </li>
         <li>
             <a href="javascript:linkMenu(&#39;/purchase/purchaseList.do&#39;,&#39;采购&#39;)">
+                <i class="iconfont"></i>
                 <p class="marginTop5">采购</p>
             </a>
         </li>
         <li>
             <a href="javascript:linkMenu(&#39;/stock/maintainList.do&#39;,&#39;库存&#39;)">
+                <i class="iconfont"></i>
                 <p class="marginTop5">库存</p>
             </a>
         </li>
         <li>
             <a href="javascript:linkMenu(&#39;/vip/vipList.do&#39;,&#39;营销&#39;)">
+                <i class="iconfont"></i>
                 <p class="marginTop5">营销</p>
                 <sup class="aside" id="wxDialogCount" style="display: none"></sup>
             </a>
         </li>
         <li>
             <a href="javascript:linkMenu(&#39;/weixin/index.do?page=datasearch&#39;,&#39;F6数据&#39;)">
+                <i class="iconfont"></i>
                 <p class="marginTop5">F6数据</p>
             </a>
         </li>
         <li>
             <a href="javascript:linkMenu(&#39;/payment/gatheringList.do&#39;,&#39;财务&#39;)">
+                <i class="iconfont"></i>
                 <p class="marginTop5">财务</p>
             </a>
         </li>
         <li>
             <a href="javascript:linkMenu(&#39;/menu/financeReportMenu.do&#39;,&#39;报表&#39;)">
+                <i class="iconfont"></i>
                 <p class="marginTop5">报表</p>
             </a>
         </li>
         <li>
             <a href="javascript:linkMenu(&#39;/workAttendance/workAttendanceSignIn.do&#39;,&#39;考勤&#39;)">
+                <i class="iconfont"></i>
                 <p class="marginTop5">考勤</p>
             </a>
         </li>
