@@ -10,6 +10,14 @@
                     e.preventDefault()
                     $(this).tab('show')
                 })
+
+                //更多筛选
+                $("#more-con").on("click", function (e) {
+                    $("#more-conditions").find("i").toggleClass("ihover"),
+                            $("#more-conditions-detail").slideToggle("fast"),
+                            $("#more-conditions-detail").toggleClass("show"),
+                            $("#more-conditions-detail").hasClass("show") ? $("#qq").val("on") : $("#qq").val("off")
+                })
             })
         </script>
         <style>
@@ -45,7 +53,7 @@
             }
             .query-conditions-left {
                 float: left;
-                width: 32%;
+                width: 35%;
             }
             .more-conditions {
                 width: 10%;
@@ -57,7 +65,24 @@
             .query-conditions-right {
                 float: right;
                 text-align: right;
-                width: 57%;
+                width: 50%;
+            }
+            .input-medium {
+                display: inline-block;
+                width: 80%;
+            }
+            .more-conditions-detail {
+                float: left;
+                width: 100%;
+                padding-left: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                height: auto;
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+            .fl {
+                float: left;
             }
         </style>
     </head>
@@ -73,19 +98,26 @@
             </div>
             <div class="tab-content" style="margin-top: 20px;">
                 <div class="tab-pane fade in active" id="g_customer">
-                    <form id="FRM" method="get" action="http://yunxiu.f6car.com/kzf6/customerCar/customerCarList.do">
+                    <form class="form-search" id="FRM" method="get" action="">
                         <input type="hidden" id="carModel" name="carModel" value="">
                         <input type="hidden" id="carType" name="carType" value="0">
                         <div class="query-conditions marginTop10">
                             <div class="row">
                                 <div class="query-conditions-left">
                                     <div class="form-group input-icon">
-                                        <i class="fa fa-search input-content input-right" onclick="searchList()"></i> <input type="text" class="form-control inputicon-right" id="keyWord" name="keyWord" value="" placeholder="输入客户姓名/车牌号/客户手机/联系人/联系人手机号查询">
+                                        <input class="input-medium search-query form-control " type="text" placeholder="输入姓名/车牌号/手机/联系人/联系人手机号"/>
+                                        <button type="submit" class="btn">查找</button>
+                                        {*<input type="text" class="form-control inputicon-right" id="keyWord" name="keyWord" value="" placeholder="输入客户姓名/车牌号/客户手机/联系人/联系人手机号查询">
+                                        <button type="submit" class="btn">查找</button>*}
                                     </div>
                                 </div>
                                 <div class="more-conditions" id="more-conditions">
-                                    <label class="labelForA" id="more-con">更多筛选</label>
-                                    <i class="fa fa-angle-down"></i>
+                                    <button type="button" class="btn btn-default dropdown-toggle labelForA" id="more-con" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        更多筛选
+                                        <span class="caret"></span>
+                                    </button>
+                                    {*<label class="labelForA" id="more-con">更多筛选</label>
+                                    <i class="fa fa-angle-down"></i>*}
                                 </div>
 
                                 <div class="query-conditions-right">
@@ -107,8 +139,8 @@
 
                                     <div class="fl" style="width:20%;">
                                         <div class="form-group">
-                                            <label class="fl text-right" style="width:30%;line-height:32px;padding-right:10px">客户类型:</label>
-                                            <div class="fl" style="width:69%;">
+                                            <label class="fl text-right" style="width:35%;line-height:32px;padding-right:10px">客户类型:</label>
+                                            <div class="fl" style="width:65%;">
                                                 <select name="customerType" class="form-control">
                                                     <option value="">请选择</option>
                                                     <option value="个人">个人</option>
