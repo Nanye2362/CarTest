@@ -203,7 +203,7 @@
                             </div>
                             <div class="fl text-center" style="width:19%">
                                 <button type="button" id="searchBtn" class="btn btn-success querypage-btn" style="margin-top:0px!important;">
-                                    <i class="fa fa-search"></i> 搜索
+                                     搜索
                                 </button>
                             </div>
 
@@ -238,7 +238,7 @@
                                     <td class="text-center"></td>
                                     <td class="text-center">个人</td>
                                     <td class="text-left"></td>
-                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545511425554816903&#39;,&#39;&#39;)"><i class="fa fa-search"></i></a></td>
+                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545511425554816903&#39;,&#39;&#39;)">查看</a></td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">
@@ -254,7 +254,7 @@
                                     <td class="text-center"></td>
                                     <td class="text-center">个人</td>
                                     <td class="text-left"></td>
-                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545511425554815691&#39;,&#39;&#39;)"><i class="fa fa-search"></i></a></td>
+                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545511425554815691&#39;,&#39;&#39;)">查看</a></td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">
@@ -270,7 +270,7 @@
                                     <td class="text-center">13265768686</td>
                                     <td class="text-center">个人</td>
                                     <td class="text-left">大众  宝来 1.9TD  MT 2004年03月-2006年</td>
-                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545491164348324531&#39;,&#39;沪DD54767&#39;)"><i class="fa fa-search"></i></a></td>
+                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545491164348324531&#39;,&#39;沪DD54767&#39;)">查看</a></td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">
@@ -286,7 +286,7 @@
                                     <td class="text-center">15900775548</td>
                                     <td class="text-center">个人</td>
                                     <td class="text-left">奔驰 R 350 L 4MATIC 2005款&nbsp;3.5 手自一体变速器(AT)</td>
-                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999862836&#39;,&#39;沪A88E81&#39;)"><i class="fa fa-search"></i></a></td>
+                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999862836&#39;,&#39;沪A88E81&#39;)">查看</a></td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">
@@ -302,7 +302,7 @@
                                     <td class="text-center">18721903522</td>
                                     <td class="text-center">个人</td>
                                     <td class="text-left">沃尔沃 C30 2012款&nbsp;2.0 双离合变速器(DCT)</td>
-                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841205&#39;,&#39;苏FEL112&#39;)"><i class="fa fa-search"></i></a></td>
+                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841205&#39;,&#39;苏FEL112&#39;)">查看</a></td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">
@@ -318,7 +318,7 @@
                                     <td class="text-center">13601653700</td>
                                     <td class="text-center">个人</td>
                                     <td class="text-left">本田  思域 2009款&nbsp;1.3 无级变速器(CVT)</td>
-                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841157&#39;,&#39;沪F59950&#39;)"><i class="fa fa-search"></i></a></td>
+                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841157&#39;,&#39;沪F59950&#39;)">查看</a></td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">
@@ -334,7 +334,7 @@
                                     <td class="text-center">13917973000</td>
                                     <td class="text-center">个人</td>
                                     <td class="text-left">大众 途安 2007款&nbsp;2.0 手动变速器(MT)</td>
-                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841126&#39;,&#39;沪FH6610&#39;)"><i class="fa fa-search"></i></a></td>
+                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841126&#39;,&#39;沪FH6610&#39;)">查看</a></td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">
@@ -350,7 +350,7 @@
                                     <td class="text-center">12345678911</td>
                                     <td class="text-center">个人</td>
                                     <td class="text-left">本田  思域 2009款&nbsp;1.3 无级变速器(CVT)</td>
-                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841113&#39;,&#39;苏BXM538&#39;)"><i class="fa fa-search"></i></a></td>
+                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841113&#39;,&#39;苏BXM538&#39;)">查看</a></td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">
@@ -366,7 +366,7 @@
                                     <td class="text-center">13482278378</td>
                                     <td class="text-center">个人</td>
                                     <td class="text-left">丰田  花冠 2007款&nbsp;1.8 自动变速器(AT)</td>
-                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841081&#39;,&#39;沪A96A39&#39;)"><i class="fa fa-search"></i></a></td>
+                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841081&#39;,&#39;沪A96A39&#39;)">查看</a></td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">
@@ -382,7 +382,7 @@
                                     <td class="text-center">13764444669</td>
                                     <td class="text-center">个人</td>
                                     <td class="text-left">标致 308 2012款&nbsp;1.6 手自一体变速器(AT)</td>
-                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841027&#39;,&#39;皖AML308&#39;)"><i class="fa fa-search"></i></a></td>
+                                    <td class="text-center"><a href="javascript:maintainHistory(&#39;10545055917999841027&#39;,&#39;皖AML308&#39;)">查看</a></td>
                                 </tr>
                             </tbody>
                         </table>
