@@ -6,10 +6,10 @@
         <script src="../js/bootstrap.min.js"></script>
         <script>
             $(function () {
-                $('#sub_title_tabs a').click(function (e) {
-                    e.preventDefault()
-                    $(this).tab('show')
-                })
+            {*$('#sub_title_tabs a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+            })*}
 
                 //更多筛选
                 $("#more-con").on("click", function (e) {
@@ -92,8 +92,8 @@
         <div id="content">
             <div class="row" id="sub_title_tabs">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#g_customer" data-toggle="tab">普通客户</a></li>
-                    <li><a href="#f_customer">快速洗车客户</a></li>
+                    <li class="active"><a href="/site/customercarlist_g_customer">普通客户</a></li>
+                    <li><a href="/site/customercarlist_f_customer">快速洗车客户</a></li>
                 </ul>
             </div>
             <div class="tab-content" style="margin-top: 20px;">
@@ -413,9 +413,6 @@
                             </div>
                         </div>
                     </form>
-                </div>
-                <div class="tab-pane fade" id="f_customer">
-                    <p>f_customer</p>
                 </div>
             </div>
         </div>

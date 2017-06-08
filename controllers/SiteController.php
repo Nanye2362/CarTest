@@ -63,9 +63,14 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
-    public function actionCustomercarlist()
+    public function actionCustomercarlist_g_customer()
     {
-        return $this->render('CustomerCarList_new.tpl');
+        return $this->render('CustomerCarList_g_customer.tpl');
+    }
+    
+    public function actionCustomercarlist_f_customer()
+    {
+        return $this->render('CustomerCarList_f_customer.tpl');
     }
     
     /**
