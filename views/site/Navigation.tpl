@@ -1,4 +1,3 @@
-<link href="../css/cartest/iconfont.css" rel="stylesheet">
 <style>
     #sidebarLeft>ul>li>a {
         padding: 8px 15px;
