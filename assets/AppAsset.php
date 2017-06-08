@@ -28,6 +28,7 @@ class AppAsset extends AssetBundle {
     public $js = [
         'js/jQuery_v1.12.4',
         'js/bootstrap.min.js',
+        'js/cartest/Global.js',
         'js/cartest/CustomerCarList.js'
     ];
     public $jsOptions = [
