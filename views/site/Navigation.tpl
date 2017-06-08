@@ -63,7 +63,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">基础资料 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">客户车辆</a></li>
+                        <li><a href="/site/customercarlist_g_customer">客户车辆</a></li>
                         <li><a href="#">车主变更</a></li>
                         <li><a href="#">客户级别</a></li>
                         <li><a href="#">客户来源</a></li>
