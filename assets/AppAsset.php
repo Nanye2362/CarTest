@@ -21,11 +21,14 @@ class AppAsset extends AssetBundle {
     public $css = [
 //        'css/site.css',
         'css/bootstrap.min.css',
-        'css/cartest/iconfont.css'
+        'css/cartest/iconfont.css',
+        'css/cartest/CustomerCarList.css',
+        'css/cartest/Navigation.css'
     ];
     public $js = [
         'js/jQuery_v1.12.4',
-        'js/bootstrap.min.js'
+        'js/bootstrap.min.js',
+        'js/cartest/CustomerCarList.js'
     ];
     public $jsOptions = [
         'position' => \yii\web\View::POS_HEAD

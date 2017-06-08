@@ -25,6 +25,7 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
+    <?php include("../views/site/Navigation.tpl"); ?>
     <div class="container">
         <?= $content ?>
     </div>

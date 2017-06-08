@@ -1,19 +1,3 @@
-<style>
-    #sidebarLeft>ul>li>a {
-        padding: 8px 15px;
-        color: #c5c5c5;
-    }
-    #sidebarLeft>ul {
-        text-align: center;
-    }
-    #sidebarLeft>ul>li>a>i {
-        font-size: 20px;
-    }
-    .marginTop5 {
-        font-size: 12px;
-        margin: 0px;
-    }
-</style>
 <!--头部开始-->
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
